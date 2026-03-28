@@ -1,0 +1,37 @@
+# ─── Data (too large for git) ───
+datasets-gu/
+datasets-hi/
+hf_cache/
+*.mp3
+*.flac
+
+# ─── Model checkpoints (upload to HuggingFace instead) ───
+checkpoints/
+*.pth
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Env ───
+.env
+.venv/
+env/
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── Notebooks ───
+.ipynb_checkpoints/
+
+# ─── Logs ───
+*.tfevents*
+trainer_*_log.txt
+events.out.*
